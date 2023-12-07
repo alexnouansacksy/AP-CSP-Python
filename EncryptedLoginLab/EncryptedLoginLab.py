@@ -134,7 +134,12 @@ You will need to:
 def register_user():
     # Grab the username and password from the entry boxes, then hash the password with sha256 and call save_to_file
     # Pop up a messagebox if account registration is successful or if the username already exists
-    ...
+    username = reg_username_entry.get()
+    password = reg_password_entry.get()
+    password = hashlib.sha256(password.encode()).hexdigest()
+    save_to_file(username, password)
+    tk.messagebox.showinfo(title="Successful", message="Successful")
+    tk.messagebox.showinfo(title="Failure", message="Failure")
     pass
 
 
