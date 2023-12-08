@@ -138,8 +138,11 @@ def register_user():
     password = reg_password_entry.get()
     password = hashlib.sha256(password.encode()).hexdigest()
     save_to_file(username, password)
-    tk.messagebox.showinfo(title="Successful", message="Successful")
-    tk.messagebox.showinfo(title="Failure", message="Failure")
+
+    if save_to_file(username, password):
+        tk.messagebox.showinfo(title="Successful", message="Successful")
+    else:
+        tk.messagebox.showerror(title="Failure", message="Failure")
     pass
 
 
@@ -149,7 +152,16 @@ def login_user():
     # Pop up a messagebox if login is successful or if the username/password is incorrect
     # If the login is successful, pop up a new window with a listbox containing all the usernames in the file
     # using the display_user_list function and your get_user_list function
-    ...
+    username = login_username_entry.get()
+    password = login_password_entry.get()
+    password = hashlib.sha256(password.encode()).hexdigest()
+
+    if (validate_account(username, password)):
+        tk.messagebox.showinfo(title="Successful", message="Successful")
+    else:
+        tk.messagebox.showerror(title="Failure", message="Failure")
+
+        display_user_list(get_user_list())
     pass
 
 
@@ -163,8 +175,13 @@ def save_to_file(username, password_hash):
     # Hint: write the encrypted username and password to the file as a single string, separated by a tab character
     # you'll need to encode the encrypted strings as base64 before writing them to the file
     # e.g., base64.b64encode(encrypted_username).decode() to encode the encrypted username as base64
-    ...
-    return False
+    if check_username_exists(username): return False
+    if os.path.exists('acounts.txt'): file = open("accounts.txt", "a")
+    else: file = open("accounts.txt", "x")
+    encryptUsername = rsa.encrypt(username.encode(), public_key)
+    encryptPassword = rsa.encrypt(password_hash, public_key)
+    file.write(base64.b64encode(encryptUsername.decode()) + " " + base64.b64encode(encryptPassword).decode() + "\n")
+    return True
 
 
 def check_username_exists(username):
@@ -173,7 +190,10 @@ def check_username_exists(username):
     # Return True if the username exists, False otherwise (username or file don't exist)
     # Hint: you'll need to decode the encrypted username from base64 before comparing it to the username
     # using rsa.decrypt(base64.b64decode(encrypted_username), private_key).decode() to decrypt the username
-    ...
+    if os.path.exists(accounts.txt):
+        userList = get_user_list()
+        if any(name == username for name in userList):
+            return True
     return False
 
 
@@ -182,7 +202,16 @@ def validate_account(username, attempted_hash):
     # Read and decrypt credentials from the file and compare to the attempted login
     # Return True if login is successful, False otherwise (incorrect password, or username or file don't exist)
     # Hint: you'll need to decode the encrypted username and password from base64 before comparing them (see above)
-    ...
+    with open ("accounts.txt", "r") as file:
+        for userPass in file:
+            realUsername, realPassword = userPass.split(" ")
+            realUsername = rsa.decrypt(base64.b64encode(realUsername), private_key).decode()
+            realPassword = rsa.decrypt(base64.b64encode(realPassword), private_key).decode()
+
+            if username == realUsername:
+                if attempted_hash == realPassword: return True
+                else: return False
+            else: return False
     return False
 
 
@@ -190,7 +219,15 @@ def get_user_list():
     global public_key, private_key
     # Read and decrypt credentials from the file and return a list of all the usernames
     # Return an empty list if the file doesn't exist
-    ...
+
+    if (os.path.exists('accounts.txt')):
+        list = []
+        with open("accounts.txt", "r") as file:
+            for userPass in file:
+                UsernamePassword = [cnt for cnt in userPass.split(" ")]
+                list.append(rsa.decrypt(base64.b64encode(info[0]), private_key).decode())
+        return list
+    else:
     return []
 
 
