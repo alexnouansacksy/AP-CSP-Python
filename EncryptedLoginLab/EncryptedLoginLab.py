@@ -190,7 +190,7 @@ def check_username_exists(username):
     # Return True if the username exists, False otherwise (username or file don't exist)
     # Hint: you'll need to decode the encrypted username from base64 before comparing it to the username
     # using rsa.decrypt(base64.b64decode(encrypted_username), private_key).decode() to decrypt the username
-    if os.path.exists(accounts.txt):
+    if os.path.exists('accounts.txt'):
         userList = get_user_list()
         if any(name == username for name in userList):
             return True
@@ -225,10 +225,10 @@ def get_user_list():
         with open("accounts.txt", "r") as file:
             for userPass in file:
                 UsernamePassword = [cnt for cnt in userPass.split(" ")]
-                list.append(rsa.decrypt(base64.b64encode(info[0]), private_key).decode())
+                list.append(rsa.decrypt(base64.b64encode(UsernamePassword[0]), private_key).decode())
         return list
     else:
-    return []
+        return []
 
 
 # Bind functions to buttons
