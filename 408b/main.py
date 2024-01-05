@@ -71,6 +71,8 @@ Search Time: 1.2800000000000013e-05
 
 Process finished with exit code 0
 
+
+
 Enter the number to search: 102012
 
 Linear Search (Unsorted): Number not found
