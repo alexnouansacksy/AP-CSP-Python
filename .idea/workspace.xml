@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3d330c-5ad7-49b6-85e8-3e665e3a8576" name="Default Changelist" comment="Update" />
+    <list default="true" id="2e3d330c-5ad7-49b6-85e8-3e665e3a8576" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/985u/data/prg408a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985u/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985u/library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985u/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,25 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex Nouansacksy/PycharmProjects/AP-CSP-Python/408b/data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Alex Nouansacksy/PycharmProjects/AP-CSP-Python/985u",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985u" />
+      <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985u\data" />
       <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\408b\data" />
       <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\408asort\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985u" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +107,8 @@
       <workItem from="1702010606008" duration="1687000" />
       <workItem from="1702047171439" duration="16000" />
       <workItem from="1704208715282" duration="13007000" />
-      <workItem from="1705935359971" duration="1985000" />
+      <workItem from="1705935359971" duration="3205000" />
+      <workItem from="1706021509724" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1695391583007</created>
@@ -209,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705937349560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <option name="closed" value="true" />
+      <created>1705937387712</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705937387712</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +257,7 @@
     <SUITE FILE_PATH="coverage/AP_CSP_Python$library.coverage" NAME="library Coverage Results" MODIFIED="1704467818664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/408b" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$Sockets.coverage" NAME="Sockets Coverage Results" MODIFIED="1699975695053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$EncryptedLoginLab.coverage" NAME="EncryptedLoginLab Coverage Results" MODIFIED="1702012686964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EncryptedLoginLab" />
-    <SUITE FILE_PATH="coverage/AP_CSP_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1704468600054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/408b" />
+    <SUITE FILE_PATH="coverage/AP_CSP_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1706022106155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985u" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$EncryptedLogIn.coverage" NAME="EncryptedLogIn Coverage Results" MODIFIED="1701960879721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$functions.coverage" NAME="functions Coverage Results" MODIFIED="1697465741098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
