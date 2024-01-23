@@ -20,3 +20,31 @@ def Partition(A, low, high):
     A[i+1] = A[high]
     A[high] = temp
     return i + 1
+
+'''
+Quicksort Sort
+222	223
+203	224
+207	228
+213	229
+223	230
+110	238
+112	239
+104	239
+208	242
+302	242
+218	243
+113	243
+323	245
+321	245
+116	246
+325	246
+123	253
+311	256
+115	257
+306	262
+365	265
+Sorting Time: 0.00013539999999999998 seconds
+
+Process finished with exit code 0
+'''
