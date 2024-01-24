@@ -1,13 +1,15 @@
-import numpy as np
+def split_list(a_list):
+    half = len(a_list) // 2
+    return a_list[:half], a_list[half:]
 
 def MergeSort(A):
     if len(A) > 1:
-        arr = np.array_split(A, 2)
-        L = arr[0]
-        R = arr[1]
-        MergeSort(L)
-        MergeSort(R)
-        Merge(A, L, R)
+        L, R = split_list(A)
+        L = MergeSort(L)
+        R = MergeSort(R)
+        A = Merge(A, L, R)
+
+    return A
 def Merge(A, L, R):
     i = 0
     j = 0
@@ -26,5 +28,7 @@ def Merge(A, L, R):
         k = k + 1
     while j < len(R):
         A[k] = R[j]
-    j = j + 1
-    k = k + 1
+        j = j + 1
+        k = k + 1
+
+    return A

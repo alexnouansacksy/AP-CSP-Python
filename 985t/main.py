@@ -26,9 +26,6 @@ def main():
             print(f"{n}")
         print(f"Sorting Time: {sortingTime} seconds")
 
-
-
-
     except Exception as e:
         print("Error: ", e)
 
