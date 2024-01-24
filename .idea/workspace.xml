@@ -7,6 +7,7 @@
     <list default="true" id="2e3d330c-5ad7-49b6-85e8-3e665e3a8576" name="Default Changelist" comment="Update">
       <change afterPath="$PROJECT_DIR$/985t/test_prog985t.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/985t/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/985t/library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/985t/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/985t/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <workItem from="1702047171439" duration="16000" />
       <workItem from="1704208715282" duration="13007000" />
       <workItem from="1705935359971" duration="3205000" />
-      <workItem from="1706021509724" duration="4494000" />
+      <workItem from="1706021509724" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1695391583007</created>
@@ -252,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706104993057</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update">
+      <option name="closed" value="true" />
+      <created>1706108823703</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706108823703</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,13 +283,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AP_CSP_Python$.coverage" NAME=" Coverage Results" MODIFIED="1706107988403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985t" />
+    <SUITE FILE_PATH="coverage/AP_CSP_Python$.coverage" NAME=" Coverage Results" MODIFIED="1706108794443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985t" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$285b.coverage" NAME="285b Coverage Results" MODIFIED="1696862032169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1701095677594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$library.coverage" NAME="library Coverage Results" MODIFIED="1704467818664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/408b" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$Sockets.coverage" NAME="Sockets Coverage Results" MODIFIED="1699975695053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$EncryptedLoginLab.coverage" NAME="EncryptedLoginLab Coverage Results" MODIFIED="1702012686964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EncryptedLoginLab" />
-    <SUITE FILE_PATH="coverage/AP_CSP_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1706107848502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985t" />
+    <SUITE FILE_PATH="coverage/AP_CSP_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1706108767709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985t" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$EncryptedLogIn.coverage" NAME="EncryptedLogIn Coverage Results" MODIFIED="1701960879721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$functions.coverage" NAME="functions Coverage Results" MODIFIED="1697465741098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
