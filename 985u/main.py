@@ -16,7 +16,7 @@ def main():
         for n in list:
             print(f"{n}")
 
-        print("Quicksort Sort")
+        print("Quick Sort")
         start = time.perf_counter()
         quicksort = library.Quicksort(list)
         end = time.perf_counter()
@@ -27,19 +27,7 @@ def main():
         print(f"Sorting Time: {sortingTime} seconds")
 
 
-        '''
-        bestTime = min(bubbleTime, selectionTime, insertionTime)
-        if bestTime == bubbleTime:
-            bestTime = "bubble sort"
-        if bestTime == selectionTime:
-            bestTime = "selection sort"
-        if bestTime == insertionTime:
-            bestTime = "insertion sort"
 
-
-        print(f"\nFastest sort (our implementation): {bestTime}")
-
-        '''
 
     except Exception as e:
         print("Error: ", e)

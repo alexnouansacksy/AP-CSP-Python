@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e3d330c-5ad7-49b6-85e8-3e665e3a8576" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/985u/test_prog958u.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985t/data/prg408a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985t/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985t/library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/985t/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/985u/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/985u/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/985u/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/985u/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Alex Nouansacksy/PycharmProjects/AP-CSP-Python/985u",
+    "last_opened_file_path": "C:/Users/Alex Nouansacksy/PycharmProjects/AP-CSP-Python/985t",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985t" />
       <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985u" />
       <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\985u\data" />
       <recent name="C:\Users\Alex Nouansacksy\PycharmProjects\AP-CSP-Python\408b\data" />
@@ -106,7 +110,7 @@
       <workItem from="1702047171439" duration="16000" />
       <workItem from="1704208715282" duration="13007000" />
       <workItem from="1705935359971" duration="3205000" />
-      <workItem from="1706021509724" duration="1485000" />
+      <workItem from="1706021509724" duration="3407000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1695391583007</created>
@@ -235,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706022434214</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update">
+      <option name="closed" value="true" />
+      <created>1706023342996</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706023342996</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +269,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AP_CSP_Python$.coverage" NAME=" Coverage Results" MODIFIED="1705937040082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AP_CSP_Python$.coverage" NAME=" Coverage Results" MODIFIED="1706023360890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/985u" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$285b.coverage" NAME="285b Coverage Results" MODIFIED="1696862032169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1701095677594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AP_CSP_Python$library.coverage" NAME="library Coverage Results" MODIFIED="1704467818664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/408b" />
